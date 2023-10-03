@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Mulish&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Mulish', sans-serif; */
+}
+
+.section-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.left-div {
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* padding: 20px; */
+}
+.left-div img{
+    /* width: 50; */
+    height: 50vh;
+    margin-top: 3rem;
+    text-align: center;
+    margin: 10 auto;
+}
+.right-div {
+    width: 50vw;
+    height: 100vh;
+    background-color: #575A85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #B8BCCC;
+}
+
+#left-div-heading {
+    color: #575A85;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 1rem 2rem;
+}
+
+#left-div-para {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 1rem 2rem;
+    color: #B8BCCC;
+}
+
+#right-div-heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+
+}
+#ip-address{
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+#submit-btn{
+    background-color: transparent;
+    border: 2px solid #B8BCCC;
+    color: #B8BCCC;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+#submit-btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+}

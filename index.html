@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F3-module-test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- before clicking section -->
+    <section class="section-homepage">
+        <div class="left-div">
+            <h1 id="left-div-heading">Post Office Application.</h1>
+            <p id="left-div-para">This Application Allows you to extract information about the nearest Post Offices,
+                based on your
+                location.</p>
+            <img src="./Assets/banner.svg" alt="img">
+        </div>
+        <div class="right-div">
+            <h1 id="right-div-heading">Your Current IP Address is <span id="ip-address">127.0.01</span></h1>
+            <button type="submit" id="submit-btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- after clicking section -->
+    <section class="section-2">
+        <div class="header">
+            <p>IP Address : <span>127.0.01</span></p>
+            <div class="header-details">
+                <p id="latitude">Lat:</p>
+                <p id="longitude">Long:</p>
+                <p id="city">City:</p>
+                <p id="region">Region:</p>
+                <p id="organisation">Organisation:</p>
+                <p id="hostname">Hostname:</p>
+            </div>
+            <div class="map-div"></div>
+            <h1>Your Current Location</h1>
+        </div>
+    </section>
+    <!-- js link -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
